@@ -1,7 +1,7 @@
 void main() {
   //conditional operator
   int age = 17;
-  age >= 18 ? ("eligible for vote") : print("not eligible for vote");
+  age >= 18 ? print ("eligible for vote") : print("not eligible for vote");
 
   var name = null;
   print(name ?? "varsha");
